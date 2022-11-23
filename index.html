@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/ios-filled/250/000000/mac-os.png">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <title>HTML Form</title>
+</head>
+<body>
+    <main>
+        <!-- main header -->
+        <h1>Basic HTML Form</h1>
+
+        <!-- form section start-->
+        <form action="">
+            <!-- personal informations -->
+            <fieldset>
+                <legend>Name</legend>
+                    <div>
+                        <label for="fName">First Name</label><br>
+                        <input type="text" name="fName">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="lName">Last Name</label>
+                        <br>
+                        <input type="text" name="lName">
+                    </div>
+            </fieldset>
+            <!-- other informations -->
+            <fieldset>
+                <legend>Other Questions</legend>
+                <!-- drinks section -->
+                <label for="drinks">Choose a Drink:</label>
+                <div class="radio-btns">
+                    <input type="radio" class="radio">
+                    <label for="cofee">cofee</label><br>
+                    <input type="radio" class="radio">
+                    <label for="tea">tea</label><br>
+                    <input type="radio" class="radio">
+                    <label for="chocolate">hot chocolate</label><br>
+                </div>
+                
+                <br>
+                <!-- ice cream section -->
+                <label for="ice-cream">What ice cream do you like?</label>
+                <div class="checkbox-btns">
+                    <input type="checkbox">
+                    <label for="Chocolate">Chocolate</label><br>
+                    <input type="checkbox"> 
+                    <label for="Pudding">Chocolate Pudding</label><br>
+                    <input type="checkbox">
+                    <label for="Peanut">Chocolate Peanut Butter</label><br>
+                    <input type="checkbox">
+                    <label for="Vanila">Vanila</label><br>
+                    <input type="checkbox">
+                    <label for="Strawberry">Strawberry</label><br>
+                </div>
+                
+                <br>
+                <!-- schools section -->
+                <label for="school">Select a school:</label><br>
+                <select name="school">
+                    <option value="harvard">harvard</option>
+                    <option value="stanford">stanford</option>
+                    <option value="yale">yale</option>
+                </select>
+
+                <br><br>
+                <!-- comments section -->
+                <label for="comments">Please provide a comments:</label><br>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+                <br><br>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <!-- form section end-->
+    </main>
+</body>
+</html>
